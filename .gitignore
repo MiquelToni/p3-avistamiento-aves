@@ -130,3 +130,8 @@ dmypy.json
 
 # dirs
 data/
+src/output/
+
+# files
+**.spacy
+config.cfg

@@ -3,6 +3,12 @@
     "Cloudbirders",
     "dantallmansbirdblog",
     "dbpedia",
+    "ents",
+    "foaf",
+    "LCASE",
+    "lemmatizer",
+    "rdfs",
+    "skos",
     "trevorsbirding"
   ]
 }
