@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://avistamiento-aves-4.org/onto.owl"
+         xmlns="http://avistamiento-aves-4.org/onto.owl#">
+
+<owl:Ontology rdf:about="http://avistamiento-aves-4.org/onto.owl"/>
+
+<owl:ObjectProperty rdf:about="#has_been_seen">
+  <rdfs:domain rdf:resource="#Bird"/>
+  <rdfs:range rdf:resource="#Sighting"/>
+  <owl:inverseOf rdf:resource="#birds_found"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#birds_found">
+  <rdfs:domain rdf:resource="#Sighting"/>
+  <rdfs:range rdf:resource="#Bird"/>
+  <owl:inverseOf rdf:resource="#has_been_seen"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#label">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#match_text">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#match_score">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#dbpedia">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#date">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#position">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#generic_context">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#Bird">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sighting">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#parrot">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#collared_sparrowhawk">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#purple_crowned_lorikeet">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#rainbow_lorikeet">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#musk_lorikeet">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#rosy_faced_lovebird">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#australian_ringneck">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#magpie">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#singing_honeyeater">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<Sighting rdf:about="#sighting-511c23b0-9fec-469b-8014-e9150eb02d5a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-adf84fb0-5708-4608-aa65-3feac06ce3e8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-83d0086f-6ede-40f2-9bbf-3c4a9f17a617">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-a7e6b65c-8823-40d8-9714-4221551587f2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#collared_sparrowhawk-b30af286-9401-4054-9f38-827499d2975a"/>
+</Sighting>
+
+<collared_sparrowhawk rdf:about="#collared_sparrowhawk-b30af286-9401-4054-9f38-827499d2975a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collared sparrowhawk</label>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Collared_sparrowhawk</dbpedia>
+</collared_sparrowhawk>
+
+<Sighting rdf:about="#sighting-2de93e7f-2424-466a-ad88-7612fbd7ec46">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#purple_crowned_lorikeet-653e5e2c-ed6e-4533-848a-943c787d7738"/>
+</Sighting>
+
+<purple_crowned_lorikeet rdf:about="#purple_crowned_lorikeet-653e5e2c-ed6e-4533-848a-943c787d7738">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purple-crowned lorikeet</label>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Purple-crowned_lorikeet</dbpedia>
+</purple_crowned_lorikeet>
+
+<Sighting rdf:about="#sighting-0e04fd4c-757f-4fe9-b898-a508b5e650f8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#rainbow_lorikeet-4d2c07a9-8ebf-4298-b13b-a66bb63be1f9"/>
+  <birds_found rdf:resource="#musk_lorikeet-fe8148a2-75c1-4423-8bca-4c92524cfd29"/>
+</Sighting>
+
+<rainbow_lorikeet rdf:about="#rainbow_lorikeet-4d2c07a9-8ebf-4298-b13b-a66bb63be1f9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rainbow lorikeet</label>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Rainbow_lorikeet</dbpedia>
+</rainbow_lorikeet>
+
+<musk_lorikeet rdf:about="#musk_lorikeet-fe8148a2-75c1-4423-8bca-4c92524cfd29">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Musk lorikeet</label>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Musk_lorikeet</dbpedia>
+</musk_lorikeet>
+
+<Sighting rdf:about="#sighting-43e694b7-abf7-4ae8-990b-79c68ea2d629">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-1e3e1459-df3c-47e1-8964-9a7c66b4f802">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#rosy_faced_lovebird-f135aab2-de05-4101-b3be-d090b1fe803a"/>
+</Sighting>
+
+<rosy_faced_lovebird rdf:about="#rosy_faced_lovebird-f135aab2-de05-4101-b3be-d090b1fe803a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosy-faced lovebird</label>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Rosy-faced_lovebird</dbpedia>
+</rosy_faced_lovebird>
+
+<Sighting rdf:about="#sighting-1cf364c7-080f-4026-a139-236352f15452">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-6ad6f302-b944-4098-a68b-819cf8f0dd27">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-36571125-14e8-45e7-9d99-064eb1be60d6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#australian_ringneck-6b5d7d50-48cd-4797-98e3-ecb57c61fbac"/>
+  <birds_found rdf:resource="#parrot-d30babcf-3679-4b64-bc1e-b53e3fbd7198"/>
+</Sighting>
+
+<australian_ringneck rdf:about="#australian_ringneck-6b5d7d50-48cd-4797-98e3-ecb57c61fbac">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australian ringneck</label>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Australian_ringneck</dbpedia>
+</australian_ringneck>
+
+<parrot rdf:about="#parrot-d30babcf-3679-4b64-bc1e-b53e3fbd7198">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parrot</label>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Parrot</dbpedia>
+</parrot>
+
+<Sighting rdf:about="#sighting-24be5538-dba8-4160-8e86-b50d6365b32c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-aa396d95-1429-46e1-8d28-a0e27b42e7ca">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-1a70c8a5-702f-4dd2-a37e-a1aa120ac99e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-a56a037d-327f-4616-9bb6-1140bd7ec830">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-bf5fc415-0d22-4f10-a3f0-3b319a46aada">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-09ce5541-bfab-4c18-a863-48a852084bb6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-df1151b5-c694-43d7-8bdd-c31893fbdb99">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-f92f1be5-962f-434b-ae7e-81d6afc968ce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-0f2dd554-5e68-4f4a-9015-d20db0a10445">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-fe682b83-5519-470f-bf10-287b93065caa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-7917c494-236e-45b4-8fb4-8a94cab744a3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-5eb3e0e5-0822-456e-95e5-68ee1f82e323">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-d7e8cc82-5cdc-416b-a56c-d211eaed994a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+<Sighting rdf:about="#sighting-494fc027-2e18-41e2-b0d2-566467069227">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#magpie-69c66835-b284-4998-aa3b-7204f217476c"/>
+</Sighting>
+
+<magpie rdf:about="#magpie-69c66835-b284-4998-aa3b-7204f217476c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magpie</label>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Magpie</dbpedia>
+</magpie>
+
+<Sighting rdf:about="#sighting-5743cc5b-ed2b-48ca-8058-5381dbae782f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#singing_honeyeater-8d3019d6-dbb9-484d-ac36-538dd3259cee"/>
+</Sighting>
+
+<singing_honeyeater rdf:about="#singing_honeyeater-8d3019d6-dbb9-484d-ac36-538dd3259cee">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singing honeyeater</label>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Singing_honeyeater</dbpedia>
+</singing_honeyeater>
+
+<Sighting rdf:about="#sighting-76b2f0d2-a820-4622-9e50-a5dc7b68bd8f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Sighting>
+
+
+</rdf:RDF>

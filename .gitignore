@@ -130,7 +130,8 @@ dmypy.json
 
 # dirs
 data/
-models/
+models/entity_ruler/
+models/custom_ner/
 
 # files
 **.spacy
