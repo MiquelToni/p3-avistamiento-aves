@@ -48,6 +48,10 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
+<owl:DatatypeProperty rdf:about="#text_field">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
 <owl:Class rdf:about="#Bird">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
@@ -56,7 +60,223 @@
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
+<owl:Class rdf:about="#ring_billed_gull">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#peregrine_falcon">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#gull">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#least_bittern">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#triller">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#khopesh">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#american_bittern">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#sunbittern">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#tern">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#owl">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#great_horned_owl">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#black_crowned_night_heron">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#egret">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#common_blackbird">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#reed_cormorant">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#little_blue_heron">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#yellow_bellied_sapsucker">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#scarlet_tanager">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#passer">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#bonaparte_s_gull">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#common_tern">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#least_sandpiper">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#surf_scoter">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#trocaz_pigeon">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#andean_avocet">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#mountain_robin">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#collared_inca">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hooded_mountain_tanager">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#chestnut_crested_cotinga">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#cock_of_the_rock">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#solitary_eagle">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#mountaingem">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#lyre_tailed_nightjar">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#andean_cock_of_the_rock">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#andean_coot">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#wire_crested_thorntail">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#vervain_hummingbird">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#trogon">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#macaw">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#yellow_bellied_dacnis">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#yellow_browed_sparrow">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#sand_coloured_nighthawk">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#nighthawk">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
 <owl:Class rdf:about="#parrot">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#blue_headed_parrot">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#hoatzin">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#seabird">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#peruvian_booby">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#peruvian_diving_petrel">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#shearwater">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#purple_sandpiper">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#pelican">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#red_necked_phalarope">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#peruvian_thick_knee">
+  <rdfs:subClassOf rdf:resource="#Bird"/>
+</owl:Class>
+
+<owl:Class rdf:about="#grey_gull">
   <rdfs:subClassOf rdf:resource="#Bird"/>
 </owl:Class>
 
@@ -124,24 +344,1071 @@
   <rdfs:subClassOf rdf:resource="#Bird"/>
 </owl:Class>
 
-<Sighting rdf:about="#sighting-765556cd-40a4-40d3-bc5c-1941f36a5f36">
+<Sighting rdf:about="#sighting-a879c14f-5b12-42d6-90a3-f4a9ce34057f">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">my late march solo visit to norway is in the books and was about as much fun as i've had in a while. the middle few days of the trip were spent birding around varanger, bookended by more touristy time intromsÃ£Â¸and oslo. at some point in the coming months there will be a full trip report here plus a very detailed cloudbirders submission. in the meantime, here is some proof that i actually went.
+</text_field>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the middle few days</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the middle few days</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">varanger</generic_context>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the coming months</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the coming months</generic_context>
 </Sighting>
 
-<Sighting rdf:about="#sighting-8ca3570b-8a63-46a7-a9b7-86f26da0a080">
+<Sighting rdf:about="#sighting-696388e9-bbfb-4654-b6c4-43aeaac60503">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- nb
+</text_field>
 </Sighting>
 
-<Sighting rdf:about="#sighting-89abf802-bd58-4c78-a581-22f9fbea372a">
+<Sighting rdf:about="#sighting-42815c6c-c330-49ef-8ba7-c63af3a2cad1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#purple_crowned_lorikeet-38fbb5ae-171e-4413-b9c4-03bfaff406d4"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i kid. new haven gets a bad rap, and it really shouldn't. or is it "bad rep??" i just don't know.
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-56cb0ac5-ecba-4d32-85d4-7a6b255e1f10">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new haven: come for the pizza, stay for the crime!
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-9394f7cd-9b56-4cb3-b2e9-81963d25f5fe">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#ring_billed_gull-42af64d4-b8ff-4c4a-b21d-60e6ca3b5eb7"/>
+  <birds_found rdf:resource="#peregrine_falcon-54995ec7-7991-4f1c-9dfd-212a09b7d25d"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">last week i was out messing with my brand new camera body, the canon r5, which at the time i had paired with my trusty ol' 400mm f5.6. i was walking back to the car at fort hale park when i heard a "thwack!" right next to me followed by the most awful gull scream you've ever heard. i looked down to my left and a ring-billed gull was flailing a bloody, broken right wing. looking up i eventually located the culprit, a hefty adult (presumed) female peregrine falcon.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r5</generic_context>
+</Sighting>
+
+<ring_billed_gull rdf:about="#ring_billed_gull-42af64d4-b8ff-4c4a-b21d-60e6ca3b5eb7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ring-billed gull</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ring-billed gull</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Ring-billed_gull</dbpedia>
+</ring_billed_gull>
+
+<peregrine_falcon rdf:about="#peregrine_falcon-54995ec7-7991-4f1c-9dfd-212a09b7d25d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peregrine falcon</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female peregrine falcon</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Peregrine_falcon</dbpedia>
+</peregrine_falcon>
+
+<Sighting rdf:about="#sighting-9223c9d0-a308-481a-b230-17d984a6e93e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#gull-bcc84a9f-5095-4eff-8901-cc46a9cea513"/>
+  <birds_found rdf:resource="#gull-cd6208bf-c4cd-4f25-8f84-898e14b9c45c"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">it seemed odd that the falcon didn't remain on its prey, so i am assuming that it was startled by my human presence mere feet from its attack. i retreated down to the water's edge to presumably watch the 'grin return for its meal. the falcon seemed noncommittal though. it made a couple passes near the gull but for whatever reason refused to finish the job; she eventually flew off as the flightless gull scampered to the water and swam away. it could be that i lingered too close, but more likely it was the human activity on the beach and the sidewalk, closer to the bird than i was, that spooked it. hopefully the gull became a meal sooner than later, as it had no hope of flying again. i have been back there twice since then and have not seen any broken-winged gulls, so here's hoping its end came rather quickly. nature is brutal but endlessly fascinating.
+</text_field>
+</Sighting>
+
+<gull rdf:about="#gull-bcc84a9f-5095-4eff-8901-cc46a9cea513">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gull</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gull</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Gull</dbpedia>
+</gull>
+
+<gull rdf:about="#gull-cd6208bf-c4cd-4f25-8f84-898e14b9c45c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gull</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gull</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Gull</dbpedia>
+</gull>
+
+<Sighting rdf:about="#sighting-3cc05a13-66d5-4835-9112-600021c33b18">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#gull-c6e59e1a-f62b-415f-ab6d-2bc33c6e396c"/>
+  <birds_found rdf:resource="#gull-c2f30d36-aa86-4b4d-87de-c5d9a738373a"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yesterday afternoon (5 feb 2022) was cold and blustery, but the sun was shining and i was itching to use my new canon r5 for the first time. so i went down to the west haven boat ramp to try shooting gulls from the car. this site is reliable for close views of gulls without having to brave the elements, and the afternoon sun would be at my back. a first cycle iceland gull was on site for a bit. otherwise i practiced with the new camera and experimented with different settings, particularly different autofocus modes. at one point a distant brant flock took flight across the harbor and i took the opportunity to shoot a few artsy (and i use that word very loosely) photos of the flock with east rock park in the background. while sorting through the images that evening i picked out a "black" brant that happened to be perfectly lit and positioned for an identifiable photo. it's better to be lucky than good!
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first</generic_context>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">west haven</position>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cycle iceland gull</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one</generic_context>
+</Sighting>
+
+<gull rdf:about="#gull-c6e59e1a-f62b-415f-ab6d-2bc33c6e396c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gull</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gulls</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Gull</dbpedia>
+</gull>
+
+<gull rdf:about="#gull-c2f30d36-aa86-4b4d-87de-c5d9a738373a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gull</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gulls</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Gull</dbpedia>
+</gull>
+
+<Sighting rdf:about="#sighting-6b86c5b2-8586-443b-96e5-b0c5c12e6ede">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#least_bittern-0f1016b2-c2b8-4c43-b65c-c309d6203cc2"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other than confirming that you can crop the heck out of an r5's image, the results of the first outing were inconsistent. the switch from dslr to mirrorless will have at least a bit of a learning curve, especially for somebody like me who does not use his gear very often these days. practice makes perfect. i'll continue to work with it as i prepare for a late march trip to norway for which i'd like to have a decent handle on this camera! the other question is whether i continue to use my old 400 f5.6 or upgrade to the pricey 100-500.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r5</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mirrorless</generic_context>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a late march</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a late march</generic_context>
+</Sighting>
+
+<least_bittern rdf:about="#least_bittern-0f1016b2-c2b8-4c43-b65c-c309d6203cc2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Least bittern</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">least bit</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Least_bittern</dbpedia>
+</least_bittern>
+
+<Sighting rdf:about="#sighting-267131df-a99b-4ed3-9e1b-e2eb92cf1f3f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- nick
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-af323f64-d25d-41f2-9b5d-5b4a6d507e4e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">happy new year!
+</text_field>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new year</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new year</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-cf056f0d-0ffd-45ae-b480-725577c1f4f0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">back in 2019 (which seems like ages ago, doesn't it?!) i set out on a statewide "self-found big year" here in connecticut. i will be presenting the concept of a sfby and a summary of my endeavors at two upcoming meetings, at least the first of which will be virtual via zoom given the current local status of covid-19.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">two</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-1059eb66-9743-4e7f-801d-6ddcd3f4c04e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new haven bird club - january 13 @ 7pm
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-cf844d18-7296-4139-a20e-c742cb55a9b0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-55a4f2b1-70fc-43c0-9d8d-81c37402b494">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hartford audubon society - february 8 @ 7pm
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-cd36109e-df6d-4771-afd1-102ff31b8abb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">click the above links for more information.
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-d08d8888-9dc5-4b12-91b3-3a0109fb3c94">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">at some point in the future i may finally post my sfby results in written form in this space, if i ever get around to it!!
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-9249c7da-a6a2-49fb-8a4e-a6fdcb509c2c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-dcaebe03-252f-45ef-8623-fa8a7b1c1c82">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- nick
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-5080c6b3-cd29-4a47-a0f5-882bb9dd3229">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the big sit! is an annual event on a predetermined weekend in october during which teams attempt to see or hear as many bird species as possible from the confines of a 17-foot circle. sounds simple, right? well, it is! there really is only one major rule: someone must see or hear said bird from the circle itself. it does not even need to be identifiable from the circle. in other words, one can leave the circle to identify a distant bird, as long as said bird is visible from the circle itself.
+</text_field>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a predetermined weekend</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a predetermined weekend</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">only one</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-57d202da-49da-4a7c-aa96-92dd4c6fa2ea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">technically a "competition," this casual and fun event is more a "challenge" than anything else and might even double as a fundraiser for nature centers. certain teams have been participating from the same circle for years now, and the goal is really just to have fun with it. some teams do keep detailed records of their sightings, each year hoping to top their circle's previous record count. others, such as the milford point "b.w. surf scopers," have also kept a cumulative list over the years that, i must say, is quite impressive.
+</text_field>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">years</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">years</generic_context>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milford</position>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b.w. surf scopers</generic_context>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the years</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the years</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-65ef8731-b8e6-437c-bad7-aa6043340d88">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anyone interested in reading more about this event can visit the website here.
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-321857ad-29e5-4696-96f6-f8ae9cd4b0f8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#triller-8bb72500-c5fd-4e3d-86cd-391f67691c2d"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">my personal involvement in the big sit has been rather limited. i have in the past assisted teams at milford point and lighthouse point. the closest i've come to an independent big sit came many years ago when i teamed up with luke tiller, who wanted to try a circle at pleasure beach in bridgeport, ct. we had high hopes for the location, which was a narrow barrier beach between marsh and long island sound, but despite excellent migration weather the count was a dud.
+</text_field>
+</Sighting>
+
+<triller rdf:about="#triller-8bb72500-c5fd-4e3d-86cd-391f67691c2d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Triller</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tiller</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Triller</dbpedia>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">luke tiller</generic_context>
+</triller>
+
+<Sighting rdf:about="#sighting-98022d0e-2692-4e7d-9457-bbd1b4a631ff">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#khopesh-220f38bc-7c00-44a9-932f-d5bea8e174d1"/>
+  <birds_found rdf:resource="#american_bittern-f5a52365-66d5-43ad-af54-552a778546c0"/>
+  <birds_found rdf:resource="#sunbittern-2a1ae612-5a0b-44cb-a307-e51cbffa61ea"/>
+  <birds_found rdf:resource="#gull-3c9d23b0-770f-4ccf-8dae-134ec9262c5d"/>
+  <birds_found rdf:resource="#tern-b3b887a1-3c82-4f70-b723-fa3deba5242c"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i hadn't given a new circle much thought until october 16, 2019. i was scanning the great island marsh in old lyme from the observation deck in hopes of adding american bittern to my self found big year total. waiting for three hours for a bittern to flush during that rising tide gave me plenty of time to soak up the location. migration conditions that midday were decent, and a light hawk flight had developed. several sparrows were kicking around the hedges. shorebirds were flying around the marsh as the tide rose. gulls and terns were feeding at the river mouth. i had only tallied 41 species over those three hours, but it seemed that this spot held great big sit potential.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three hours</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">midday</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41</generic_context>
+</Sighting>
+
+<khopesh rdf:about="#khopesh-220f38bc-7c00-44a9-932f-d5bea8e174d1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khopesh</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hopes</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Khopesh</dbpedia>
+</khopesh>
+
+<american_bittern rdf:about="#american_bittern-f5a52365-66d5-43ad-af54-552a778546c0">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American bittern</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">american bittern</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/American_bittern</dbpedia>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">american</position>
+</american_bittern>
+
+<sunbittern rdf:about="#sunbittern-2a1ae612-5a0b-44cb-a307-e51cbffa61ea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunbittern</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bittern</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Sunbittern</dbpedia>
+</sunbittern>
+
+<gull rdf:about="#gull-3c9d23b0-770f-4ccf-8dae-134ec9262c5d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gull</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gulls</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Gull</dbpedia>
+</gull>
+
+<tern rdf:about="#tern-b3b887a1-3c82-4f70-b723-fa3deba5242c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tern</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terns</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Tern</dbpedia>
+</tern>
+
+<Sighting rdf:about="#sighting-ecf5240d-bc8e-4ffc-8386-113b4d5d6944">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">last october thanks to conflicting plans i was unable to put together a team. but this year's weekend was wide open, and i was thrilled that there was interest among friends not already committed to another team. and so it was decided. matt bell, andy griswold, jason rieger, phil rusch and i would give it a shot!
+</text_field>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">this year's weekend</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">this year's weekend</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-2c7ac1a4-57a4-4ab8-9b8b-63ac673b1194">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">we set our sights on saturday, october 9th.
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-2939f8d1-be4f-4a06-8dc3-7711a6b67253">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#khopesh-16095276-646e-49ed-92a9-303ad301e765"/>
+  <birds_found rdf:resource="#owl-0d7c1cbd-707e-401b-8f20-6c15924ef6b4"/>
+  <birds_found rdf:resource="#great_horned_owl-0c010755-298d-4453-9bc1-2c057ac47472"/>
+  <birds_found rdf:resource="#black_crowned_night_heron-825bfc85-6318-4913-9f06-e60cdb54ea6b"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phil and i arrived at 0430 in hopes of picking up a few nocturnal migrants, owls, or rails. we didn't have much calling overhead despite mostly clear skies and light ene wind, but a few swainson's thrushes and a veery got us off to a positive start. clapper rail called from the marsh, and just before dawn a pair of great horned owls began duetting. our only black-crowned night-herons of the day were heard in the dark. we ended up with twelve species predawn.
+</text_field>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the day</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the day</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">twelve</generic_context>
+</Sighting>
+
+<khopesh rdf:about="#khopesh-16095276-646e-49ed-92a9-303ad301e765">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khopesh</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hopes</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Khopesh</dbpedia>
+</khopesh>
+
+<owl rdf:about="#owl-0d7c1cbd-707e-401b-8f20-6c15924ef6b4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Owl</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owls</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Owl</dbpedia>
+</owl>
+
+<great_horned_owl rdf:about="#great_horned_owl-0c010755-298d-4453-9bc1-2c057ac47472">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Great horned owl</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">great horned owls</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Great_horned_owl</dbpedia>
+</great_horned_owl>
+
+<black_crowned_night_heron rdf:about="#black_crowned_night_heron-825bfc85-6318-4913-9f06-e60cdb54ea6b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black-crowned night heron</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">only black-crowned night-herons</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Black-crowned_night_heron</dbpedia>
+</black_crowned_night_heron>
+
+<Sighting rdf:about="#sighting-0dae1c8c-2837-4f0b-939a-ef487fb822e1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#egret-1d939c94-d603-4bf2-ae92-33a013cbcbda"/>
+  <birds_found rdf:resource="#gull-17d37e19-1839-4016-876f-07dd741e8c7c"/>
+  <birds_found rdf:resource="#common_blackbird-16e42658-4f1f-4986-bee6-38185c65e219"/>
+  <birds_found rdf:resource="#gull-ca5aaf11-3edf-48d3-b077-13a7a279de97"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and then when dawn hit we enjoyed our heaviest activity of the day, per usual. new birds were being added left and right. the increasing east winds weren't ideal for a morning flight of passerines, and so we weren't shocked that little was passing overhead. but there was plenty on the deck to keep us busy. egrets and gulls were pouring out of their roosts. common backyard birds could be heard and seen in the adjacent private lots. a feeding flock of laughing gulls developed that would last on and off through the morning, and for a little while a they were joined by a juvenile black-legged kittiwake. kittiwake is a state review species and a really difficult bird to see from shore, but autumn 2021 has delivered a smattering of inshore and even inland reports through the entire region, so something is going on with that species right now. we were at 65 species at 0835.
+</text_field>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the day</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the day</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a morning</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65</generic_context>
+</Sighting>
+
+<egret rdf:about="#egret-1d939c94-d603-4bf2-ae92-33a013cbcbda">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egret</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">egrets</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Egret</dbpedia>
+</egret>
+
+<gull rdf:about="#gull-17d37e19-1839-4016-876f-07dd741e8c7c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gull</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gulls</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Gull</dbpedia>
+</gull>
+
+<common_blackbird rdf:about="#common_blackbird-16e42658-4f1f-4986-bee6-38185c65e219">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common blackbird</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common backyard birds</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Common_blackbird</dbpedia>
+</common_blackbird>
+
+<gull rdf:about="#gull-ca5aaf11-3edf-48d3-b077-13a7a279de97">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gull</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gulls</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Gull</dbpedia>
+</gull>
+
+<Sighting rdf:about="#sighting-867ae6d3-c5d1-47fb-9ed9-edaa82154203">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#reed_cormorant-af06b59a-e2ab-4aa1-9a01-33cf91f42f6b"/>
+  <birds_found rdf:resource="#little_blue_heron-7b560d67-c949-4ddb-8b4b-34ae04a24860"/>
+  <birds_found rdf:resource="#yellow_bellied_sapsucker-75890ccb-948b-45a4-ac61-f25cfedb872c"/>
+  <birds_found rdf:resource="#scarlet_tanager-62a7baa5-d801-424e-ad58-292ba431ccb9"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the rest of the gang arrived throughout the morning, adding plenty of fresh eyes to the crew. the rate of additions tarried but kept steady. with only a light migration happening, we weren't seeing big numbers of birds, especially passerines. we struggled with some common stuff and even ended up entirely missing robin and chickadee for the day! but in early-mid october bird diversity is still pretty strong in connecticut, so there was a wide range of possibilities for us to see. what we missed was made up for with quality finds such as great cormorant, little blue heron, glossy ibis, yellow-bellied sapsucker, barn swallow and scarlet tanager.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the morning</generic_context>
+</Sighting>
+
+<reed_cormorant rdf:about="#reed_cormorant-af06b59a-e2ab-4aa1-9a01-33cf91f42f6b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reed cormorant</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">great cormorant</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Reed_cormorant</dbpedia>
+</reed_cormorant>
+
+<little_blue_heron rdf:about="#little_blue_heron-7b560d67-c949-4ddb-8b4b-34ae04a24860">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Little blue heron</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">little blue heron</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Little_blue_heron</dbpedia>
+</little_blue_heron>
+
+<yellow_bellied_sapsucker rdf:about="#yellow_bellied_sapsucker-75890ccb-948b-45a4-ac61-f25cfedb872c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow-bellied sapsucker</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow-bellied sapsucker</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Yellow-bellied_sapsucker</dbpedia>
+</yellow_bellied_sapsucker>
+
+<scarlet_tanager rdf:about="#scarlet_tanager-62a7baa5-d801-424e-ad58-292ba431ccb9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scarlet tanager</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scarlet tanager</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Scarlet_tanager</dbpedia>
+</scarlet_tanager>
+
+<Sighting rdf:about="#sighting-5a31a036-6a91-4269-ae13-f9286ac3a744">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#passer-c3e07152-752a-41fa-95aa-4712474b2669"/>
+  <birds_found rdf:resource="#bonaparte_s_gull-7d928811-d2e1-4bdc-802c-a4bec114cfb4"/>
+  <birds_found rdf:resource="#common_tern-360891dc-7f20-4b19-a8bd-396ef6e8db62"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">that feeding gull flock continued to produce by sucking in passers by. at one point a bonaparte's gull got in on the action, and a flock of 21 common terns appeared from the east and eventually settled into that flock.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one</generic_context>
+</Sighting>
+
+<passer rdf:about="#passer-c3e07152-752a-41fa-95aa-4712474b2669">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Passer</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passers</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Passer</dbpedia>
+</passer>
+
+<bonaparte_s_gull rdf:about="#bonaparte_s_gull-7d928811-d2e1-4bdc-802c-a4bec114cfb4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonaparte's gull</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonaparte gull</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Bonaparte's_gull</dbpedia>
+</bonaparte_s_gull>
+
+<common_tern rdf:about="#common_tern-360891dc-7f20-4b19-a8bd-396ef6e8db62">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common tern</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common terns</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Common_tern</dbpedia>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</generic_context>
+</common_tern>
+
+<Sighting rdf:about="#sighting-7f57efe3-3d54-488e-9a60-99aac8d4d119">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#least_sandpiper-0f89927b-e511-41c9-8150-aadbc0bf1320"/>
+  <birds_found rdf:resource="#american_bittern-d6957e2b-c462-49e5-83c0-d48adae2b374"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">as the tide rose i hopped into my kayak for a marsh paddle. least sandpiper, saltmarsh sparrow, nelson's sparrow and marsh wren were ticked from the circle as i identified them from the marsh. shorebirds and waders were forced to move around as this super high tide covered dry ground. while i was out paddling an american bittern was among those flushed by rising water. at 1320 we stood at 88 species.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</generic_context>
+</Sighting>
+
+<least_sandpiper rdf:about="#least_sandpiper-0f89927b-e511-41c9-8150-aadbc0bf1320">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Least sandpiper</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">least sandpiper</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Least_sandpiper</dbpedia>
+</least_sandpiper>
+
+<american_bittern rdf:about="#american_bittern-d6957e2b-c462-49e5-83c0-d48adae2b374">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American bittern</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">american bittern</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/American_bittern</dbpedia>
+</american_bittern>
+
+<Sighting rdf:about="#sighting-6265b7db-1d7b-4943-91b0-2e7501d6da17">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#surf_scoter-670e8366-825a-466a-9018-3937c605f21f"/>
+  <birds_found rdf:resource="#trocaz_pigeon-8e66b3c7-c3f1-484a-8468-c501722a9cf3"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other than the feeding gulls, long island sound was eerily quiet all day. nothing much was moving. we struggled for our few surf scoters and only had a couple loons. there was a light raptor migration happening, so we ended up with most of the expected species, though red-shouldered was a miss. one of our toughest birds of the day was rock pigeon, which we ended up finally getting in flight mid-afternoon.
+</text_field>
+</Sighting>
+
+<surf_scoter rdf:about="#surf_scoter-670e8366-825a-466a-9018-3937c605f21f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surf scoter</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">few surf scoters</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Surf_scoter</dbpedia>
+</surf_scoter>
+
+<trocaz_pigeon rdf:about="#trocaz_pigeon-8e66b3c7-c3f1-484a-8468-c501722a9cf3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trocaz pigeon</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rock pigeon</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Trocaz_pigeon</dbpedia>
+</trocaz_pigeon>
+
+<Sighting rdf:about="#sighting-9434f086-23cf-471d-adf1-815d502100cb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">once we realized that 100 species was in sight, we felt obligated to keep going until dark, even if it was like pulling teeth. our last bird came in the form of two unidentified teal sometime after 5pm. counting 'teal sp.' we hit 98 species, or 97 fully-identified species. going into this we figured that 75-80 or more would be a success, so reaching 98 felt like a major victory. who knows what the ceiling is on this place. 110+ seems very plausible. perhaps one day under perfect conditions we will find out. the team is already looking forward to 2022 as we spitball ways to improve upon our inaugural effort!
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">two</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5pm</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">98</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">97</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-fe819c3e-1fd0-4829-9ef7-39d0adb09980">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">you can read our full ebird list by clicking here.
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-32fd9481-58cf-4877-ab51-a1b49195ee69">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-30643156-6c08-4d8e-9b87-cf4cd18b9483">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- nick
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-b4c82e01-bd9f-4ad4-8224-984c616ba8a8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recently back from about 10 days in peru. friend and still-young birder jory teltser had been itching to get away during his trimester break from school, and i was happy to oblige. jory picked the location and general itinerary. i pretty much just showed up!
+</text_field>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about 10 days</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about 10 days</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-c951c7e1-490d-4464-9775-ef17d6f33bf4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i arrived in cusco on the morning of september 14th, grabbed a rental suv and collected jory, who had been hanging around cusco  vicinity with his uncle for about a week. we immediately hit the road for what would be our most ambitious leg of the trip: driving to lake titicaca for one night and returning to cusco the following evening. thanks to two road closures and a few roadside birding stops the drive took about 8 hours each way. that left us with one morning's birding on the lake near puno. our "floating island" airbnb provided us with birds from the porch at first light, but a boat ride from our hosts provided us with our first major target of the trip, titicaca grebe.
+</text_field>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about a week</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about a week</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one night</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">two</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about 8 hours</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one morning's</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-aeeaafb5-b549-4a1f-9e7f-37d1e70fcc8e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#andean_avocet-f34809f1-8172-4a4c-ae73-48b3a318b7af"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">on our way out of town after the boat ride, heading back towards cusco, we made several roadside stops in search of puna plover (which we dipped on). but as an unexpected consolation we stumbled across two andean avocets.
+</text_field>
+</Sighting>
+
+<andean_avocet rdf:about="#andean_avocet-f34809f1-8172-4a4c-ae73-48b3a318b7af">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andean avocet</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">andean avocets</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Andean_avocet</dbpedia>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">two</generic_context>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">andean</position>
+</andean_avocet>
+
+<Sighting rdf:about="#sighting-f54c313d-4f1f-4e36-9475-c9e90e515a1f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#mountain_robin-81b1ef4d-ea00-42f8-a04f-9da5c6d0cd36"/>
+  <birds_found rdf:resource="#collared_inca-257dcc35-b8e5-47a4-ac13-e1b338a12c5d"/>
+  <birds_found rdf:resource="#hooded_mountain_tanager-6ac8d346-7c12-4d06-91aa-38f4a507f167"/>
+  <birds_found rdf:resource="#chestnut_crested_cotinga-f497efea-14f8-44f6-b6b9-976c8fd13798"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">we spent the night of the 15th in cusco, where we would be picked up by our driver the following morning as we began our journey down the celebrated manu road. our first cloud forest birding stop along said mountain road was a lunch break at wayqecha biological station. the meal was delicious, but it was difficult to focus on food with active hummingbird feeders just off the porch. we tallied seven species including collared inca and shining sunbeam, which goes down in my book as one of the best bird names in the world. we also enjoyed fantastic views of several hooded mountain tanagers, one of my favorites of the entire trip and an absolute monster of a bird, each one looking as if it had just swallowed another tanager whole. as we continued our descent on this east side of the andes, the roadside birding was curbed by a steady rain. the standout bird of the afternoon was a lone chestnut-crested cotinga that hardly seemed bothered by the weather.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seven</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the afternoon</generic_context>
+</Sighting>
+
+<mountain_robin rdf:about="#mountain_robin-81b1ef4d-ea00-42f8-a04f-9da5c6d0cd36">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mountain robin</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mountain road</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Mountain_robin</dbpedia>
+</mountain_robin>
+
+<collared_inca rdf:about="#collared_inca-257dcc35-b8e5-47a4-ac13-e1b338a12c5d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collared inca</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collared inca</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Collared_inca</dbpedia>
+</collared_inca>
+
+<hooded_mountain_tanager rdf:about="#hooded_mountain_tanager-6ac8d346-7c12-4d06-91aa-38f4a507f167">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hooded mountain tanager</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">several hooded mountain tanagers</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Hooded_mountain_tanager</dbpedia>
+</hooded_mountain_tanager>
+
+<chestnut_crested_cotinga rdf:about="#chestnut_crested_cotinga-f497efea-14f8-44f6-b6b9-976c8fd13798">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chestnut-crested cotinga</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lone chestnut-crested cotinga</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Chestnut-crested_cotinga</dbpedia>
+</chestnut_crested_cotinga>
+
+<Sighting rdf:about="#sighting-66a44605-7d7e-4cdd-ba6e-6208cb347ff4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#cock_of_the_rock-acc7062f-e6b2-4313-83c6-48caf51df790"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">our evening arrival at cock-of-the-rock lodge was a bit late for serious birding, so we settled in and enjoyed a superb dinner  beer. in fact, the food here was just about as enjoyable as the birding, and that's really saying something. from the starters to dessert, all top notch.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">our evening</generic_context>
+</Sighting>
+
+<cock_of_the_rock rdf:about="#cock_of_the_rock-acc7062f-e6b2-4313-83c6-48caf51df790">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cock-of-the-rock</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cock-of-the-rock lodge</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Cock-of-the-rock</dbpedia>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cock-of-the-rock lodge</generic_context>
+</cock_of_the_rock>
+
+<Sighting rdf:about="#sighting-163cb7a2-c81d-4cd0-b155-b80aba3587d6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#solitary_eagle-8c4ff319-470b-4cf4-b106-7c21f7bc4058"/>
+  <birds_found rdf:resource="#mountaingem-ec22d1cd-6527-4a15-a8be-aed1ab0a5ffe"/>
+  <birds_found rdf:resource="#lyre_tailed_nightjar-90b543e5-e422-4497-8859-c8e7bc099441"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">our birding-by-foot on the 17th tallied a combined 65 species with a ton of quality such as solitary eagle, versicolored barbet and paradise tanager. that night we walked the road down the mountain for a bit and turned up a foraging female lyre-tailed nightjar that provided really excellent views in our spotlight.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a ton</generic_context>
+</Sighting>
+
+<solitary_eagle rdf:about="#solitary_eagle-8c4ff319-470b-4cf4-b106-7c21f7bc4058">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solitary eagle</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solitary eagle</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Solitary_eagle</dbpedia>
+</solitary_eagle>
+
+<mountaingem rdf:about="#mountaingem-ec22d1cd-6527-4a15-a8be-aed1ab0a5ffe">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mountaingem</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mountain</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Mountaingem</dbpedia>
+</mountaingem>
+
+<lyre_tailed_nightjar rdf:about="#lyre_tailed_nightjar-90b543e5-e422-4497-8859-c8e7bc099441">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyre-tailed nightjar</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female lyre-tailed nightjar</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Lyre-tailed_nightjar</dbpedia>
+</lyre_tailed_nightjar>
+
+<Sighting rdf:about="#sighting-8cb782ba-3e22-42a2-bdd2-fe847c792e96">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#andean_cock_of_the_rock-a479530e-b1b3-4e64-98c8-a07c033d2aa9"/>
+  <birds_found rdf:resource="#andean_coot-28eabb1e-1223-4dee-bfa0-952f64d4fb2f"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the next morning we arranged our attendance at the nearby andean cock-of-the-rock lek. three male birds were actively strutting their stuff just down the slope. while watching the lek we were briefly visited by an andean motmot.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three</generic_context>
+</Sighting>
+
+<andean_cock_of_the_rock rdf:about="#andean_cock_of_the_rock-a479530e-b1b3-4e64-98c8-a07c033d2aa9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andean cock-of-the-rock</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nearby andean cock-of-the-rock lek</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Andean_cock-of-the-rock</dbpedia>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">andean cock-of-the-rock lek</position>
+</andean_cock_of_the_rock>
+
+<andean_coot rdf:about="#andean_coot-28eabb1e-1223-4dee-bfa0-952f64d4fb2f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andean coot</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">andean motmot</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Andean_coot</dbpedia>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">andean</position>
+</andean_coot>
+
+<Sighting rdf:about="#sighting-9457e8e9-c488-4dbd-9800-e090823488c8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#wire_crested_thorntail-9fa898ed-f3c2-409e-9dc3-97808aa789a4"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">after breakfast we departed this lodge for our next stop: the amazon. but not before we were visited by a wire-crested thorntail and enjoyed much better looks at the barbet.
+</text_field>
+</Sighting>
+
+<wire_crested_thorntail rdf:about="#wire_crested_thorntail-9fa898ed-f3c2-409e-9dc3-97808aa789a4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wire-crested thorntail</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wire-crested thorntail</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Wire-crested_thorntail</dbpedia>
+</wire_crested_thorntail>
+
+<Sighting rdf:about="#sighting-f3dbc8b3-bd56-46c9-9280-30b9846b0905">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">as we approached atalaya, where we would take a short boat ride to amazonia lodge, we stopped at mirador pico de hoz to check their hummingbird feeders. active as advertised, we tallied a quick nine hummer species, ash-colored cuckoo, and a rather obliging white-throated toucan.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nine</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-455bd41f-aa65-420a-9957-88807038bdc8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#vervain_hummingbird-949ea298-7b71-4c61-b862-727bff36fa2a"/>
+  <birds_found rdf:resource="#trogon-ccc0b28d-1f44-44d0-83e3-eaeb61841722"/>
+  <birds_found rdf:resource="#macaw-051ba301-5bcd-45ba-b06a-29753623dbf2"/>
+  <birds_found rdf:resource="#yellow_bellied_dacnis-f5e243ed-02a6-40cd-acc3-2e9e2c076b54"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">we arrived at amazonia mid-afternoon on the 18th and set up for three nights. just birding the immediate lodge grounds proved productive that evening, as we noted several hummingbirds, guans, trogons and macaws. side-by-side green honeycreeper and yellow-bellied dacnis stood out from the crowd.
+</text_field>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amazonia</position>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mid-afternoon</generic_context>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the 18th</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the 18th</generic_context>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three nights</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three nights</generic_context>
+</Sighting>
+
+<vervain_hummingbird rdf:about="#vervain_hummingbird-949ea298-7b71-4c61-b862-727bff36fa2a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vervain hummingbird</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">several hummingbirds</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Vervain_hummingbird</dbpedia>
+</vervain_hummingbird>
+
+<trogon rdf:about="#trogon-ccc0b28d-1f44-44d0-83e3-eaeb61841722">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trogon</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trogons</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Trogon</dbpedia>
+</trogon>
+
+<macaw rdf:about="#macaw-051ba301-5bcd-45ba-b06a-29753623dbf2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macaw</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macaws</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Macaw</dbpedia>
+</macaw>
+
+<yellow_bellied_dacnis rdf:about="#yellow_bellied_dacnis-f5e243ed-02a6-40cd-acc3-2e9e2c076b54">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow-bellied dacnis</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow-bellied dacnis</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Yellow-bellied_dacnis</dbpedia>
+</yellow_bellied_dacnis>
+
+<Sighting rdf:about="#sighting-843aacc7-a96f-4df5-a407-a54814c6f231">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#yellow_browed_sparrow-dae15655-aa9f-43f9-9280-890e69ca00b2"/>
+  <birds_found rdf:resource="#sand_coloured_nighthawk-7fa7b197-1fba-48e7-905e-35b18c9f5cd1"/>
+  <birds_found rdf:resource="#nighthawk-1326fa10-4cf7-46c7-bcb2-aab14cabbb83"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">we spent the 19th walking the trails and river banks, coming up with a list of 88 species between us. narrowing down the highlights from a list like this isn't easy, but i particularly enjoyed the yellow-browed sparrows. kidding. i mean, there's nothing wrong with them. but highlights they were not. to be honest though, two of my favorite birds of the day were mostly brown and not colorful at all. two sand-colored nighthawks and a single flyby ladder-winged nightjar were a real treat, as i show my nocturnal birding bias here. the night birding was quite good, in fact, as we heard or saw four owl species, two nightjars, a nighthawk and a potoo over our three nights here!
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">four</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">two</generic_context>
+</Sighting>
+
+<yellow_browed_sparrow rdf:about="#yellow_browed_sparrow-dae15655-aa9f-43f9-9280-890e69ca00b2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow-browed sparrow</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yellow-browed sparrows</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Yellow-browed_sparrow</dbpedia>
+</yellow_browed_sparrow>
+
+<sand_coloured_nighthawk rdf:about="#sand_coloured_nighthawk-7fa7b197-1fba-48e7-905e-35b18c9f5cd1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sand-coloured nighthawk</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sand-colored nighthawks</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Sand-coloured_nighthawk</dbpedia>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">two</generic_context>
+</sand_coloured_nighthawk>
+
+<nighthawk rdf:about="#nighthawk-1326fa10-4cf7-46c7-bcb2-aab14cabbb83">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nighthawk</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nighthawk</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Nighthawk</dbpedia>
+</nighthawk>
+
+<Sighting rdf:about="#sighting-c0bc0a6b-1f39-496b-8a2f-258138a1d147">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#parrot-2b841d5c-2b91-4f86-b20f-e1eadfe7d7bf"/>
+  <birds_found rdf:resource="#blue_headed_parrot-dd46eff3-e36e-421c-96cc-2743f8217409"/>
+  <birds_found rdf:resource="#hoatzin-b5d8209e-23e7-467e-9ba6-02be75ccd1ac"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">on the morning of the 20th we took a boat ride downriver to access a parrot roost and a trail network. watching hundreds of parrots noisily frolicking along forest edge was quite a treat. i was particularly fond of the blue-headed parrots. the stretch of wet forest later that morning boasted an impressive roost of hoatzin and our first and only horned screamers of the trip.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hundreds</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first</generic_context>
+</Sighting>
+
+<parrot rdf:about="#parrot-2b841d5c-2b91-4f86-b20f-e1eadfe7d7bf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parrot</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parrots</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Parrot</dbpedia>
+</parrot>
+
+<blue_headed_parrot rdf:about="#blue_headed_parrot-dd46eff3-e36e-421c-96cc-2743f8217409">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue-headed parrot</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blue-headed parrots</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Blue-headed_parrot</dbpedia>
+</blue_headed_parrot>
+
+<hoatzin rdf:about="#hoatzin-b5d8209e-23e7-467e-9ba6-02be75ccd1ac">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoatzin</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hoatzin</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Hoatzin</dbpedia>
+</hoatzin>
+
+<Sighting rdf:about="#sighting-a4171605-c06a-49f5-9567-2a0c4a826702">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">our time in the amazon came to an end on the 21st, when we made the long drive back to cusco. this was essentially a travel day. the next morning we flew from cusco to lima, got covid tested at the airport, grabbed a rental car and managed to locate our airbnb south of the city center. back-to-back days without really any birding. boo!
+</text_field>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the 21st</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the 21st</generic_context>
+  <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">back-to-back days</date>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">back-to-back days</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-4adb29c7-43aa-46c3-9c8c-02334c302661">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the 23rd would be our last day in peru, as we each had late night redeye flights back to the states. but we had enough time to spend the entire morning-midday birding the coast south of lima! those of you who know me pretty well will not be surprised to hear that this was my favorite day of the trip.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">late night</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-6a4be438-2eff-4c5d-9381-62d9b87dfe91">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#seabird-f9dc6d51-e320-49ef-b43d-ab10104bcd30"/>
+  <birds_found rdf:resource="#tern-ae54b991-8ff1-437d-ba65-9b8f8876ef1a"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"how could half a day on the coast possibly beat cloud forest and amazon birding," you are likely wondering. for whatever reason i have always gravitated towards birding open spaces rather than forest. coast, marsh, open ocean, etc. even inland fields or hill/mountain tops qualify to a degree. that is my preferred habitat, especially when you add water to the equation. unsurprisingly i favor the birds that occupy those spaces: seabirds, shorebirds, terns, raptors and others. "viz-mig" (visible migration) is another interest of mine, one that is best observed with a view of the sky. in fact, migration in general i find endlessly fascinating and exciting. i would honestly much rather look at long-distance migrant shorebirds on a mudflat than some resident range-restricted endemic elaenia in a forest.
+</text_field>
+</Sighting>
+
+<seabird rdf:about="#seabird-f9dc6d51-e320-49ef-b43d-ab10104bcd30">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seabird</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seabirds</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Seabird</dbpedia>
+</seabird>
+
+<tern rdf:about="#tern-ae54b991-8ff1-437d-ba65-9b8f8876ef1a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tern</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terns</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Tern</dbpedia>
+</tern>
+
+<Sighting rdf:about="#sighting-fc4aac42-7d93-4663-8bcc-8cfafb237e04">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#tern-219aea53-7ffd-4252-8e71-a63c0dff0c19"/>
+  <birds_found rdf:resource="#peruvian_booby-1ad16d38-4125-4b83-9eaa-ff3ab490d97b"/>
+  <birds_found rdf:resource="#peruvian_diving_petrel-59a7c525-5810-45ac-a65d-89a76e6cfa7f"/>
+  <birds_found rdf:resource="#shearwater-2b0fc7b8-6e63-4a6b-8a07-a8010b143f8e"/>
+  <birds_found rdf:resource="#purple_sandpiper-719cae00-35d0-4679-97ec-fce2fe2c59aa"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">so i was in my element when we arrived before sunrise to sea watch from a pucusana bluff. immediately inca terns, peruvian boobies, and peruvian pelicans were found to be numerous. to our surprise and delight, there was a steady movement of southbound sooty shearwaters. we were hoping at a glimpse of a peruvian diving-petrel, and it didn't take long for the first to appear in the line of shearwaters. we ended up tallying 36 of these unique tubenoses moving south! the seabird movement shut down after about an hour, and we decided to end the count then. before we left, we did enjoy fine views of surf cinclodes, a marine rock-loving passerine that, as jory put it, "is basically a purple sandpiper."
+</text_field>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peruvian</position>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about an hour</generic_context>
+</Sighting>
+
+<tern rdf:about="#tern-219aea53-7ffd-4252-8e71-a63c0dff0c19">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tern</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terns</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Tern</dbpedia>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inca terns</generic_context>
+</tern>
+
+<peruvian_booby rdf:about="#peruvian_booby-1ad16d38-4125-4b83-9eaa-ff3ab490d97b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peruvian booby</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peruvian boobies</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Peruvian_booby</dbpedia>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peruvian</position>
+</peruvian_booby>
+
+<peruvian_diving_petrel rdf:about="#peruvian_diving_petrel-59a7c525-5810-45ac-a65d-89a76e6cfa7f">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peruvian diving petrel</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peruvian diving-petrel</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Peruvian_diving_petrel</dbpedia>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peruvian</position>
+</peruvian_diving_petrel>
+
+<shearwater rdf:about="#shearwater-2b0fc7b8-6e63-4a6b-8a07-a8010b143f8e">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shearwater</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shearwaters</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Shearwater</dbpedia>
+</shearwater>
+
+<purple_sandpiper rdf:about="#purple_sandpiper-719cae00-35d0-4679-97ec-fce2fe2c59aa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purple sandpiper</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purple sandpiper</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Purple_sandpiper</dbpedia>
+</purple_sandpiper>
+
+<Sighting rdf:about="#sighting-2b120ef0-35e3-4d9d-b23e-4827687adf89">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#pelican-6eade657-4813-4429-99ba-49401257f99a"/>
+  <birds_found rdf:resource="#tern-eb919257-70d6-4bfb-b5ce-068d87a8c98c"/>
+  <birds_found rdf:resource="#red_necked_phalarope-d7d2512c-48bd-4dea-9ee7-89be30992b31"/>
+  <birds_found rdf:resource="#reed_cormorant-d5672081-692e-4d71-a52b-ace2ff2db41c"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">from there we drove to the waterfront to meet a boatman who would take us on an hour-long circumnavigation of isla pucusana, home to many inshore seabirds. tons more boobies, pelicans and terns. four red-necked phalaropes were cooperative, and we picked out about a half-dozen blue-footed boobies amongst the peruvian. killer views of red-legged cormorant, which is one heck of a cool bird in breeding plumage, and one rather approachable humboldt penguin.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one</generic_context>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">humboldt</position>
+</Sighting>
+
+<pelican rdf:about="#pelican-6eade657-4813-4429-99ba-49401257f99a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelican</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pelicans</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Pelican</dbpedia>
+</pelican>
+
+<tern rdf:about="#tern-eb919257-70d6-4bfb-b5ce-068d87a8c98c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tern</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terns</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Tern</dbpedia>
+</tern>
+
+<red_necked_phalarope rdf:about="#red_necked_phalarope-d7d2512c-48bd-4dea-9ee7-89be30992b31">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red-necked phalarope</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red-necked phalaropes</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Red-necked_phalarope</dbpedia>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">four</generic_context>
+</red_necked_phalarope>
+
+<reed_cormorant rdf:about="#reed_cormorant-d5672081-692e-4d71-a52b-ace2ff2db41c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reed cormorant</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red-legged cormorant</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Reed_cormorant</dbpedia>
+</reed_cormorant>
+
+<Sighting rdf:about="#sighting-bff8964e-9f5e-4091-b588-ec5fba887d6b">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#peruvian_thick_knee-e7b1907c-ef0a-4125-82f2-b62ca99bea8d"/>
+  <birds_found rdf:resource="#grey_gull-ebf65266-176f-4dce-83f7-0aa9c768b39a"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">after that awesome pucusana experience we had a bit more time before repacking and driving to the airport, so we continued 20 minutes further south to puerto viejo for a peek. not sure what to expect, we encountered a private community that was closed to the public but held a pair of great grebes in the manmade pond near the entrance. in the scrub just outside was a pair of peruvian thick-knees. a nearby beach held a large flock of roosting gray gulls and a smattering of shorebirds.
+</text_field>
+</Sighting>
+
+<peruvian_thick_knee rdf:about="#peruvian_thick_knee-e7b1907c-ef0a-4125-82f2-b62ca99bea8d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peruvian thick-knee</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peruvian thick-knees</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Peruvian_thick-knee</dbpedia>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peruvian</position>
+</peruvian_thick_knee>
+
+<grey_gull rdf:about="#grey_gull-ebf65266-176f-4dce-83f7-0aa9c768b39a">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grey gull</label>
+  <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gray gulls</match_text>
+  <match_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</match_score>
+  <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Grey_gull</dbpedia>
+</grey_gull>
+
+<Sighting rdf:about="#sighting-c0c52300-c925-4861-9a9d-cb8ea689d2fa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">getting back to lima was, of course, an adventure. for anyone traveling to peru for the first time, be aware that driving in lima is pure chaos. there seems to be an air of lawlessness on the roads. be prepared! luckily we got the rental car back without any [new] scratches or dents.
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first</generic_context>
+</Sighting>
+
+<Sighting rdf:about="#sighting-fcd48478-d5e9-4c17-bd86-7b4ccf0e0cc4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overall we enjoyed a very successful trip considering that this was our first visit to the country, and we did not use local guides other than drivers/boatmen. i ended up with around 315 species (several left off the list due to insufficient views or truly uncertain ids), and jory surpassed 400 during his time in peru. looking forward to a return visit, which must include a pelagic into the humboldt current!
+</text_field>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">first</generic_context>
+  <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">around 315</generic_context>
+  <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">humboldt</position>
+</Sighting>
+
+<Sighting rdf:about="#sighting-6d97774d-e4d4-4f63-8b7c-e82a7c55514c">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">- nick
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-5aad3437-2688-48a6-9f74-63ded52c295d">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> posting... 
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-4e2d4a01-ed26-4bad-97cb-a3840295cc64">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> ' + response + '
+</text_field>
+</Sighting>
+
+<Sighting rdf:about="#sighting-aed08278-2144-40bb-841e-0b5dc34c8c88">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <birds_found rdf:resource="#purple_crowned_lorikeet-d51b1e0d-3e19-4fe8-b151-2eb774f4bb21"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">earlier this week i glanced out of my sunroom window to check whether there were any birds at my birdbaths. i currently have three birdbaths just outside the room, one on the ground, one on a pedestal at about 60cm and one hanging from a tree branch at a height of about 1.5 metres. i was delighted to see a small flock of purple-crowned lorikeets having a drink and dipping into the water for a bath. i have just checked my list of species to have visited the birdbaths. this was bird species number 36, in addition to the three reptiles and two mammal species.
+</text_field>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three</generic_context>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about 60cm</generic_context>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about 1.5 metres</generic_context>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">two</generic_context>
 </Sighting>
 
-<purple_crowned_lorikeet rdf:about="#purple_crowned_lorikeet-38fbb5ae-171e-4413-b9c4-03bfaff406d4">
+<purple_crowned_lorikeet rdf:about="#purple_crowned_lorikeet-d51b1e0d-3e19-4fe8-b151-2eb774f4bb21">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purple-crowned lorikeet</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purple-crowned lorikeets</match_text>
@@ -149,14 +1416,16 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Purple-crowned_lorikeet</dbpedia>
 </purple_crowned_lorikeet>
 
-<Sighting rdf:about="#sighting-43ae285a-f11d-4bd9-aa3a-c669b8d35bf5">
+<Sighting rdf:about="#sighting-26d9952e-715b-4608-ba37-38653047f109">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#banded_honeyeater-6e957eb9-3c25-49f4-89d3-8d448a7534ad"/>
-  <birds_found rdf:resource="#collared_sparrowhawk-50ace10d-7e4d-4628-8739-1926dc9ea4d9"/>
+  <birds_found rdf:resource="#banded_honeyeater-04b28c9b-1436-4f6d-82ae-45c93150142b"/>
+  <birds_found rdf:resource="#collared_sparrowhawk-29756bb2-4399-4605-bc6b-f8b52f62fd54"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">after a moment or two, i counted up to seven individuals in or near the birdbaths. soon they were joined by several house sparrows and three or four new holland honeyeaters. there was a sudden screeching and a flurry of wings as a collared sparrowhawk swooped in to break up the party. i didnt see if it caught anything for its supper.
+</text_field>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seven</generic_context>
 </Sighting>
 
-<banded_honeyeater rdf:about="#banded_honeyeater-6e957eb9-3c25-49f4-89d3-8d448a7534ad">
+<banded_honeyeater rdf:about="#banded_honeyeater-04b28c9b-1436-4f6d-82ae-45c93150142b">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banded honeyeater</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new honeyeaters</match_text>
@@ -166,7 +1435,7 @@
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">four</generic_context>
 </banded_honeyeater>
 
-<collared_sparrowhawk rdf:about="#collared_sparrowhawk-50ace10d-7e4d-4628-8739-1926dc9ea4d9">
+<collared_sparrowhawk rdf:about="#collared_sparrowhawk-29756bb2-4399-4605-bc6b-f8b52f62fd54">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collared sparrowhawk</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collared sparrowhawk</match_text>
@@ -174,14 +1443,16 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Collared_sparrowhawk</dbpedia>
 </collared_sparrowhawk>
 
-<Sighting rdf:about="#sighting-27f37d52-cea4-439d-a488-c14395587168">
+<Sighting rdf:about="#sighting-536012a5-8345-4419-8ea5-de14671e9955">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#purple_crowned_lorikeet-d7051c0a-24ec-4a79-aa24-65be3c13438a"/>
-  <birds_found rdf:resource="#common_iora-de999bc5-f470-4b7b-92f1-66661e60ef7b"/>
+  <birds_found rdf:resource="#purple_crowned_lorikeet-decfd5eb-dc30-43e3-945b-c182b6409749"/>
+  <birds_found rdf:resource="#common_iora-05e5a82e-9d8d-40df-a86c-b66195aa5346"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the purple-crowned lorikeet is a common bird in the murray bridge district of south australia where i live. on most occasions, however, i hear them go screeching overhead at speed and rarely get good views of them like in todays photos. sometimes i am lucky enough to see them reasonably close when they land to feed on the blossoms of one of the mallee trees on my land. that is when my binoculars help out, as well as the 83x zoom on my camera.
+</text_field>
   <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83x</position>
 </Sighting>
 
-<purple_crowned_lorikeet rdf:about="#purple_crowned_lorikeet-d7051c0a-24ec-4a79-aa24-65be3c13438a">
+<purple_crowned_lorikeet rdf:about="#purple_crowned_lorikeet-decfd5eb-dc30-43e3-945b-c182b6409749">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Purple-crowned lorikeet</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purple-crowned lorikeet</match_text>
@@ -189,7 +1460,7 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Purple-crowned_lorikeet</dbpedia>
 </purple_crowned_lorikeet>
 
-<common_iora rdf:about="#common_iora-de999bc5-f470-4b7b-92f1-66661e60ef7b">
+<common_iora rdf:about="#common_iora-05e5a82e-9d8d-40df-a86c-b66195aa5346">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common iora</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common bird</match_text>
@@ -197,13 +1468,15 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Common_iora</dbpedia>
 </common_iora>
 
-<Sighting rdf:about="#sighting-b4d0b99e-eb46-4a97-920f-f3b64f17c028">
+<Sighting rdf:about="#sighting-a2e0ac02-ee1c-411f-a42f-f42733959620">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#rainbow_lorikeet-24cb64c4-2ef5-43c1-bd0f-2d13d3bc3b60"/>
+  <birds_found rdf:resource="#rainbow_lorikeet-dd408847-1886-43a1-9605-ada3a48bad19"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">there are two other lorikeet species which visit my garden or the trees on my 5-acre block. they include the very common rainbow lorikeet and the dainty, much smaller, musk lorikeet.
+</text_field>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">two</generic_context>
 </Sighting>
 
-<rainbow_lorikeet rdf:about="#rainbow_lorikeet-24cb64c4-2ef5-43c1-bd0f-2d13d3bc3b60">
+<rainbow_lorikeet rdf:about="#rainbow_lorikeet-dd408847-1886-43a1-9605-ada3a48bad19">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rainbow lorikeet</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common rainbow lorikeet</match_text>
@@ -211,18 +1484,22 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Rainbow_lorikeet</dbpedia>
 </rainbow_lorikeet>
 
-<Sighting rdf:about="#sighting-94432b2a-b3dd-48e9-a8df-491a63f9767f">
+<Sighting rdf:about="#sighting-6318ad57-969e-4b4a-a25e-58893a3fbd2f">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i am so pleased to have the delight of regularly seeing all three of these colourful parrots right where i live.
+</text_field>
 </Sighting>
 
-<Sighting rdf:about="#sighting-7e289ba0-e420-4304-8016-596a622e0e88">
+<Sighting rdf:about="#sighting-004583e5-ee6f-4419-b33d-e759540503c9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#rosy_faced_lovebird-cd27ab7a-6d0a-4368-99f3-449d659aacb5"/>
-  <birds_found rdf:resource="#ovenbird-448ac389-c9c8-400b-a9a4-1f71f6e9db82"/>
-  <birds_found rdf:resource="#ovenbird-24582726-67e7-4a16-b408-a884c0dfb568"/>
+  <birds_found rdf:resource="#rosy_faced_lovebird-6541fa9d-b2f2-4725-a568-1c518629e5ee"/>
+  <birds_found rdf:resource="#ovenbird-df7fabb4-100b-4fe2-99d9-28cde9131561"/>
+  <birds_found rdf:resource="#ovenbird-1a3321c5-7a67-40e3-b59d-1e02afc18a5b"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a few days ago i wrote about the rosy-faced lovebird which visited my garden recently. my property is on the north-western edge of murray bridge, south australia. it is a long way to the natural habitat of the lovebird in south-western africa. however, lovebirds are a commonly kept aviary and cage species here in australia and in many other countries. 
+</text_field>
 </Sighting>
 
-<rosy_faced_lovebird rdf:about="#rosy_faced_lovebird-cd27ab7a-6d0a-4368-99f3-449d659aacb5">
+<rosy_faced_lovebird rdf:about="#rosy_faced_lovebird-6541fa9d-b2f2-4725-a568-1c518629e5ee">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosy-faced lovebird</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rosy-faced lovebird</match_text>
@@ -230,7 +1507,7 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Rosy-faced_lovebird</dbpedia>
 </rosy_faced_lovebird>
 
-<ovenbird rdf:about="#ovenbird-448ac389-c9c8-400b-a9a4-1f71f6e9db82">
+<ovenbird rdf:about="#ovenbird-df7fabb4-100b-4fe2-99d9-28cde9131561">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovenbird</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lovebird</match_text>
@@ -238,7 +1515,7 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Ovenbird</dbpedia>
 </ovenbird>
 
-<ovenbird rdf:about="#ovenbird-24582726-67e7-4a16-b408-a884c0dfb568">
+<ovenbird rdf:about="#ovenbird-1a3321c5-7a67-40e3-b59d-1e02afc18a5b">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovenbird</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lovebirds</match_text>
@@ -246,20 +1523,24 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Ovenbird</dbpedia>
 </ovenbird>
 
-<Sighting rdf:about="#sighting-db39d79b-50f1-4689-8478-2f92cb2609b8">
+<Sighting rdf:about="#sighting-bcb60496-94eb-47a9-ad01-532379d35b92">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i suspect that that visitor, and the individual seen in my garden just over a year ago, had escaped from someones cage or aviary. i know that there are many keen aviculturists (keepers and breeders of birds) here in this district. i have been a guest speaker at their meetings on several occasions in recent years.
+</text_field>
   <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recent years</date>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recent years</generic_context>
 </Sighting>
 
-<Sighting rdf:about="#sighting-ccc241ce-d7e8-4774-9a5e-a688c7dbf0e5">
+<Sighting rdf:about="#sighting-73758ba6-3bef-44e4-82e9-f9c2cbc1f432">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#ovenbird-328ade48-d283-44f0-8e02-d326de58c0f9"/>
-  <birds_found rdf:resource="#budgerigar-2b9373bd-0f81-4db9-8b20-cf8534d308ea"/>
+  <birds_found rdf:resource="#ovenbird-2cedf570-9a05-4044-8d49-5ce8db421181"/>
+  <birds_found rdf:resource="#budgerigar-f10e1952-676b-445b-888f-29d6e95dd7e9"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">todays visitor was quite different. i immediately noticed that the colours were much lighter. just a little research turned up a variant known as the aqua turquoise mutation. lovebirds, like budgerigars, have many colour variations when bred in captivity. 
+</text_field>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">todays visitor</generic_context>
 </Sighting>
 
-<ovenbird rdf:about="#ovenbird-328ade48-d283-44f0-8e02-d326de58c0f9">
+<ovenbird rdf:about="#ovenbird-2cedf570-9a05-4044-8d49-5ce8db421181">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovenbird</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lovebirds</match_text>
@@ -267,7 +1548,7 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Ovenbird</dbpedia>
 </ovenbird>
 
-<budgerigar rdf:about="#budgerigar-2b9373bd-0f81-4db9-8b20-cf8534d308ea">
+<budgerigar rdf:about="#budgerigar-f10e1952-676b-445b-888f-29d6e95dd7e9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Budgerigar</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">budgerigars</match_text>
@@ -275,12 +1556,14 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Budgerigar</dbpedia>
 </budgerigar>
 
-<Sighting rdf:about="#sighting-411c416b-d20a-44f3-a8d0-009a8ea12160">
+<Sighting rdf:about="#sighting-41640ed8-c0a8-412c-a2f0-54c3b652d47b">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#australian_ringneck-bdf9aa1b-ef96-4466-a601-501b0f34bbe9"/>
+  <birds_found rdf:resource="#australian_ringneck-4964f921-d0b3-4841-95f3-cc524b8db898"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">australian ringneck parrots are one of many colourful and common members of the parrot family in australia. there are several sub-species of the ringnecks in australia and the one i have resident in my garden is the mallee ringneck, named after their favoured habitat, the eucalypt trees known as mallee trees. i regard this species as a resident bird because i observe them almost every day on my 5-acre property on the edge of murray bridge, south australia. they have also nested in one of the hollows in one of my trees. 
+</text_field>
 </Sighting>
 
-<australian_ringneck rdf:about="#australian_ringneck-bdf9aa1b-ef96-4466-a601-501b0f34bbe9">
+<australian_ringneck rdf:about="#australian_ringneck-4964f921-d0b3-4841-95f3-cc524b8db898">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australian ringneck</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">australian ringneck parrots</match_text>
@@ -289,14 +1572,16 @@
   <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">australian</position>
 </australian_ringneck>
 
-<Sighting rdf:about="#sighting-49b06511-4d19-4636-ac28-c26afe0b4f85">
+<Sighting rdf:about="#sighting-089259d3-38dc-4a79-bfaf-27ff240bc748">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#mayr_s_honeyeater-41c28d1b-2982-4f9b-b689-916b98beac87"/>
+  <birds_found rdf:resource="#mayr_s_honeyeater-3d0120f2-ef33-452c-9bc6-7682e534b526"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i have a number of eremophila plants in my garden and they are all prolific when flowering, often covering the whole bush. when my wife was still alive she also loved this family of australian native plants and she had the foresight to plant quite a few around the garden. the plant shown in todays photos is quite close to the front door. i can stand near the window or door and observe the birds feeding on the flowers without them being aware of my presence. of course, the many honeyeaters in my garden also like these flowers. 
+</text_field>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bush</generic_context>
   <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">australian</position>
 </Sighting>
 
-<mayr_s_honeyeater rdf:about="#mayr_s_honeyeater-41c28d1b-2982-4f9b-b689-916b98beac87">
+<mayr_s_honeyeater rdf:about="#mayr_s_honeyeater-3d0120f2-ef33-452c-9bc6-7682e534b526">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mayr's honeyeater</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">many honeyeaters</match_text>
@@ -304,17 +1589,21 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Mayr's_honeyeater</dbpedia>
 </mayr_s_honeyeater>
 
-<Sighting rdf:about="#sighting-f89143b9-efa5-4a93-aec9-c79ec656ef3d">
+<Sighting rdf:about="#sighting-8ee2048a-cfed-48dd-bde9-7c50ca99e675">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i love seeing the ringnecks flying around my garden and feeding on the various bushes in flower. they can be a little noisy at times, especially when three or four  or even more  decide to kick up a ruckus.
+</text_field>
 </Sighting>
 
-<Sighting rdf:about="#sighting-8e785876-c76a-4362-8ad9-e4eaba0a28e7">
+<Sighting rdf:about="#sighting-a65fbcd4-eb41-4597-81da-babe40ebcb03">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#small_pratincole-3f6f1633-0d5a-4c23-b687-cdbbabc0986f"/>
-  <birds_found rdf:resource="#beautiful_sunbird-9159762a-c96b-4cbf-bff7-a88d8ccae31c"/>
+  <birds_found rdf:resource="#small_pratincole-a9d624b6-d32e-465b-aa66-d6475c31e1e2"/>
+  <birds_found rdf:resource="#beautiful_sunbird-a4e3cec1-8b78-4133-9ed8-4a4187f13db3"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">however, i do not appreciate the way they treat my pear trees when they have fruit on them. a few days ago i found out that they had been chewing at the green fruit. the pears are not much bigger than marbles, yet they seem to enjoy chewing on them. i guess that it is a small price to pay for having such a beautiful bird enjoying my garden.
+</text_field>
 </Sighting>
 
-<small_pratincole rdf:about="#small_pratincole-3f6f1633-0d5a-4c23-b687-cdbbabc0986f">
+<small_pratincole rdf:about="#small_pratincole-a9d624b6-d32e-465b-aa66-d6475c31e1e2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small pratincole</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small price</match_text>
@@ -322,7 +1611,7 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Small_pratincole</dbpedia>
 </small_pratincole>
 
-<beautiful_sunbird rdf:about="#beautiful_sunbird-9159762a-c96b-4cbf-bff7-a88d8ccae31c">
+<beautiful_sunbird rdf:about="#beautiful_sunbird-a4e3cec1-8b78-4133-9ed8-4a4187f13db3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beautiful sunbird</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beautiful bird</match_text>
@@ -330,14 +1619,16 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Beautiful_sunbird</dbpedia>
 </beautiful_sunbird>
 
-<Sighting rdf:about="#sighting-655c7e55-f76c-4546-b6e0-c680855a2fd6">
+<Sighting rdf:about="#sighting-c458eff7-952e-480b-b18a-3056df7961b3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#parrot-b641caea-4e83-49b9-afbc-c22a0968dffe"/>
-  <birds_found rdf:resource="#cockatoo-54a6b1fa-c2ee-4ca4-ad42-fcb0d1003657"/>
+  <birds_found rdf:resource="#parrot-946e095a-0d94-4991-b0a6-8892dd82cf21"/>
+  <birds_found rdf:resource="#cockatoo-53477292-44e4-4818-907a-2f3e4db853f0"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i live on the edge of the rural city of murray bridge which is about an hours drive from adelaide, south australia. we are blessed to have a variety of parrots, cockatoos and lorikeets in the region. one of the common birds in this family is the galah. i am sure that if i took a census of this species over a whole year, there would be very few days pass without seeing at least a handful of these lovely parrots either resting in the trees in my garden, or flying overhead. on occasions, i have even seen flocks of many dozens through to many hundreds. they are a very common species in this area.
+</text_field>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about an hours</generic_context>
 </Sighting>
 
-<parrot rdf:about="#parrot-b641caea-4e83-49b9-afbc-c22a0968dffe">
+<parrot rdf:about="#parrot-946e095a-0d94-4991-b0a6-8892dd82cf21">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parrot</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parrots</match_text>
@@ -345,7 +1636,7 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Parrot</dbpedia>
 </parrot>
 
-<cockatoo rdf:about="#cockatoo-54a6b1fa-c2ee-4ca4-ad42-fcb0d1003657">
+<cockatoo rdf:about="#cockatoo-53477292-44e4-4818-907a-2f3e4db853f0">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cockatoo</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cockatoos</match_text>
@@ -353,50 +1644,64 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Cockatoo</dbpedia>
 </cockatoo>
 
-<Sighting rdf:about="#sighting-467624c8-6b42-4675-a523-27544381cd6d">
+<Sighting rdf:about="#sighting-9d69de7a-96bd-42bc-8464-a7a373cf9736">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the photos shown in todays post were all taken in my garden and all within a few minutes of each other. this hollow is in an old-growth mallee tree within about twenty metres of my back veranda. i have a comfortable chair located there and i enjoy sitting there reading  or just watching the birds all around. it is very relaxing and quite lovely that the local, resident birds just go about their activities while totally ignoring me. it also makes photography easy.
+</text_field>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a few minutes</generic_context>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about twenty metres</generic_context>
 </Sighting>
 
-<Sighting rdf:about="#sighting-5eda100a-d43c-4194-8aac-9cbe9a2b3ce1">
+<Sighting rdf:about="#sighting-042c0632-b9f6-45df-8e56-2bf7355e9b6f">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a pair of galahs have been working at this hollow for some years. then, about four years ago they started putting fresh eucalypt leaves in the hollow. i eagerly anticipated a nesting attempt but they abandoned their quest. about once or twice a day they would sit at the opening of the hollow and screech loudly into the hollow  then fly away. 
+</text_field>
   <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">some years</date>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">some years</generic_context>
 </Sighting>
 
-<Sighting rdf:about="#sighting-26c0b8f0-4cc2-4ca9-9c61-3ad44e1d0c98">
+<Sighting rdf:about="#sighting-861084f0-de27-4488-a9c8-5d4f10ebd826">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strange, i thought.
+</text_field>
 </Sighting>
 
-<Sighting rdf:about="#sighting-be07454d-0974-4d45-a634-6d5c304cd927">
+<Sighting rdf:about="#sighting-c2ba57ac-91d7-4934-b5d9-15b4e47f0b98">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a few days later i discovered the reason why they hadnt successfully nested in the hollow. i saw a brush-tailed possum coming out of the hollow. it had evicted the galahs from their home. after some months i guess that the possum had moved on elsewhere. in fact, i havent seen one or heard one on the roof for several years now. so the galahs returned to their home.
+</text_field>
   <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">several years</date>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">several years</generic_context>
 </Sighting>
 
-<Sighting rdf:about="#sighting-57a5ca13-1f2a-4f36-afbd-6dea1246fefb">
+<Sighting rdf:about="#sighting-f06c1511-e649-4807-b166-3c53d516076c">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">during late winter last year they again started working on the hollow. during the next month or so they successfully laid eggs and raised their chicks which later fledged. this year they have again been successful. i didnt manage to get a photo of this years chicks because they flew off before i could get a shot. instead, i have included below a photo of one of the chicks from last years brood.
+</text_field>
   <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the next month</date>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the next month</generic_context>
   <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">last years</date>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">last years</generic_context>
 </Sighting>
 
-<Sighting rdf:about="#sighting-bbfe9b9b-efd4-4a55-b700-d86dba6e7a48">
+<Sighting rdf:about="#sighting-93448551-7187-464c-8fb5-9778422403da">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a few days after the two chicks fledged, they were precariously hanging on to the branches of the trees nearby, along with about a dozen other chicks from other parents. most of them were calling to be fed, and as the parents came in to feed them i had a very noisy galah nursery in my garden.
+</text_field>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">two</generic_context>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">about a dozen</generic_context>
 </Sighting>
 
-<Sighting rdf:about="#sighting-286d46e9-a735-4a17-9443-b7d7eec57829">
+<Sighting rdf:about="#sighting-84f22647-cbf6-447a-a974-433a17a4e8d6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#grey_currawong-1ddae6ec-07d2-464f-8586-2371a23785f5"/>
+  <birds_found rdf:resource="#grey_currawong-1d081668-19d9-4ccb-869d-bdba44b8aee4"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i find it interesting that i havent heard or seen many grey currawongs in my garden in recent months. i live on a five-acre block of mallee scrub, garden plants and a few fruit trees on the western edge of murray bridge, about an hours drive south-east of adelaide, south australia.
+</text_field>
   <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recent months</date>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recent months</generic_context>
 </Sighting>
 
-<grey_currawong rdf:about="#grey_currawong-1ddae6ec-07d2-464f-8586-2371a23785f5">
+<grey_currawong rdf:about="#grey_currawong-1d081668-19d9-4ccb-869d-bdba44b8aee4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grey currawong</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">many grey currawongs</match_text>
@@ -404,24 +1709,30 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Grey_currawong</dbpedia>
 </grey_currawong>
 
-<Sighting rdf:about="#sighting-09fcf796-1057-4923-a680-935a1542cd31">
+<Sighting rdf:about="#sighting-2c22b428-2ab5-4ab0-837e-f101862dfcae">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">currawongs are usually only occasional visitors to my garden despite the species being widespread and relatively common in this region of the state. i sometimes hear them calling up the hill from my home, usually around sunset. in past times i have heard or seen this species every few days. this year their calls and visits have been very infrequent until the last few weeks.
+</text_field>
   <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the last few weeks</date>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the last few weeks</generic_context>
 </Sighting>
 
-<Sighting rdf:about="#sighting-8c5b93a6-f46c-440d-8860-79bec6192840">
+<Sighting rdf:about="#sighting-55436e12-1344-4444-8c67-291c5afe9c6e">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a few days ago i was treated to a visit from a whole family of grey currawongs. i suddenly had four of them quite close to the house, one adult and three juveniles. the young ones kept begging for food while the adult was busily trying to satisfy the hungry tribe. the young ones had only just fledged and were still looking quite fluffy and a bit scruffy.
+</text_field>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one</generic_context>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">three</generic_context>
 </Sighting>
 
-<Sighting rdf:about="#sighting-88572d46-2360-4e4b-947a-449b8e449254">
+<Sighting rdf:about="#sighting-da4ceded-f34e-40a7-a1ad-4d47efe47b3a">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#chicken-6589848f-e372-4ef7-8005-c3413e71c066"/>
+  <birds_found rdf:resource="#chicken-d397444e-c614-4c80-8aaa-ecfbc60722f8"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">with so many currawongs in a small part of my garden, it is not surprising that the local residents were quite upset. currawongs are very quick to take advantage of a tasty morsel from anothers nest, not being fussy whether it is an egg or a chick. the local magpie larks were sitting on eggs just a few metres away. their strident shrieking had little effect on the currawongs. 
+</text_field>
 </Sighting>
 
-<chicken rdf:about="#chicken-6589848f-e372-4ef7-8005-c3413e71c066">
+<chicken rdf:about="#chicken-d397444e-c614-4c80-8aaa-ecfbc60722f8">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chick</match_text>
@@ -429,13 +1740,15 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Chicken</dbpedia>
 </chicken>
 
-<Sighting rdf:about="#sighting-b06fbae3-1f88-4031-8a5b-0fe031a83d49">
+<Sighting rdf:about="#sighting-2c37d184-7017-4bf4-bf8d-d61bae450205">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <birds_found rdf:resource="#common_starling-2024b834-fa9e-4cd4-b36b-f266eb75f126"/>
+  <birds_found rdf:resource="#common_starling-c94ee072-e0fe-40e8-97e3-6b00134c73ec"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the local honeyeaters, red wattlebirds, new holland honeyeaters and a solitary singing honeyeater all kicked up a ruckus and the nesting common starlings joined in the protest as well. 
+</text_field>
   <position rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new holland</position>
 </Sighting>
 
-<common_starling rdf:about="#common_starling-2024b834-fa9e-4cd4-b36b-f266eb75f126">
+<common_starling rdf:about="#common_starling-c94ee072-e0fe-40e8-97e3-6b00134c73ec">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common starling</label>
   <match_text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common starlings</match_text>
@@ -443,8 +1756,10 @@
   <dbpedia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://dbpedia.org/resource/Common_starling</dbpedia>
 </common_starling>
 
-<Sighting rdf:about="#sighting-7e2130a7-d838-4ccf-95da-c4ef4651762b">
+<Sighting rdf:about="#sighting-f846f802-1245-4f7f-8daf-559fb33e8946">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <text_field rdf:datatype="http://www.w3.org/2001/XMLSchema#string">after a few minutes the currawongs moved on elsewhere. several of them have passed through my property in the days since, but the protests were much more subdued.
+</text_field>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a few minutes</generic_context>
   <date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the days</date>
   <generic_context rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the days</generic_context>
